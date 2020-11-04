@@ -34,7 +34,7 @@ public class Tes {
                 }else if(event.getType() ==TreeCacheEvent.Type.CONNECTION_RECONNECTED){
                     System.out.println("重新连接");
                 }else if(event.getType() ==TreeCacheEvent.Type.CONNECTION_LOST){
-                    System.out.println("连接过时一段时间");
+                    System.out.println("连接过时一段时间222");
                 }
             }
         });
