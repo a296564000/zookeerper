@@ -28,13 +28,13 @@ public class Tes {
                 }else if(event.getType() == TreeCacheEvent.Type.NODE_UPDATED){
                     System.out.println(event.getData().getPath() + "节点修改"+new String(event.getData().getData()));
                 }else if(event.getType() == TreeCacheEvent.Type.INITIALIZED){
-                    System.out.println("初始化完成");
+                    System.out.println("初始化完成2121");
                 }else if(event.getType() ==TreeCacheEvent.Type.CONNECTION_SUSPENDED){
-                    System.out.println("连接过时");
+                    System.out.println("连接过时121");
                 }else if(event.getType() ==TreeCacheEvent.Type.CONNECTION_RECONNECTED){
                     System.out.println("重新连接");
                 }else if(event.getType() ==TreeCacheEvent.Type.CONNECTION_LOST){
-                    System.out.println("连接过时一段时间222");
+                    System.out.println("连接过时一段时间2212122");
                 }
             }
         });
